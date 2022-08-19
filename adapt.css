@@ -32,7 +32,15 @@ a:visited {
 
     .title {
         margin-left: 225px;
+        padding-top: 80px;
     }
 
+    .nav_bar {
+        
+        position: fixed;
+        width: 440px;
+        margin-left: 237px;
+    }
     
 }
+

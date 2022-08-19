@@ -7,3 +7,32 @@ a:visited {
     color: #fff;
     text-decoration: none;
 }
+
+
+@media screen and (min-width: 950px){
+    .w {
+        flex-direction: row-reverse;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    .nav_bar {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .rows_big {
+        margin-left: 236.5px;
+    }
+
+    .title {
+        margin-left: 225px;
+    }
+
+    
+}

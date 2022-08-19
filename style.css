@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    max-width: 900px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -14,6 +14,7 @@ body {
     height: 80px;
     border-radius: 40px;
     background-color: #fff;
+    
 }
 
 .logo img {
@@ -53,10 +54,15 @@ body {
 .big_cell {
     width: 420px;
     height: 420px;
-    background: url(war.jpeg) no-repeat center top / cover;
+    
     border: 10px solid #fff;
     border-radius: 50px;
 }
+
+.one_big {
+    background: url(war.jpeg) no-repeat center top / cover;
+}
+
 
 .big_cell p {
     font-size: 20px;
@@ -113,4 +119,26 @@ body {
 
 .four {
     background: url(flags.jpeg) no-repeat center top / cover;
+}
+
+.two_big {
+    background: url(les.jpeg) no-repeat center top / cover;
+}
+
+.four_reverse {
+    background: url(telega.jpeg) no-repeat center top / cover;
+
+}
+
+.one_reverse {
+    background: url(holiday.jpeg) no-repeat center top / cover;
+}
+
+.three_reverse {
+    background: url(gaz.jpeg) no-repeat center top / cover;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.two_reverse {
+    background: url(fire.jpeg) no-repeat center top / cover;
 }

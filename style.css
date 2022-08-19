@@ -12,7 +12,7 @@ body {
 .nav_bar {
     max-width: 1000px;
     height: 80px;
-    border-radius: 39px;
+    border-radius: 40px;
     background-color: #fff;
 }
 
@@ -51,8 +51,8 @@ body {
 
 
 .big_cell {
-    width: calc(50% - 20px);
-    height: 500px;
+    width: 420px;
+    height: 420px;
     background: url(war.jpeg) no-repeat center top / cover;
     border: 10px solid #fff;
     border-radius: 50px;
@@ -61,7 +61,56 @@ body {
 .big_cell p {
     font-size: 20px;
     font-weight: bold;
-    margin-top: 440px;
-    margin-left: 40px;
+    margin-top: 371px;
+    margin-left: 24px;
 }
 
+.cell_litlle {
+    font-size: 20px;
+    font-weight: bold;
+    width: 195px;
+    height: 195px;
+    border-radius: 50px;
+    background: #000;
+    border: 10px solid #fff;
+}
+
+.cell_litlle p {
+    margin-left: 25px;
+    margin-top: 127px;
+}
+
+.row_little {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.one {
+    background: url(biatlon.jpeg) no-repeat center top / cover;
+}
+
+.two {
+     
+    background: url(sun.jpeg) no-repeat center top / cover;
+}
+
+.three {
+    background: url(tehnika.jpeg) no-repeat center top / cover;
+}
+
+.four {
+    background: url(flags.jpeg) no-repeat center top / cover;
+}

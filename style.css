@@ -106,24 +106,25 @@ body {
 }
 
 .one {
-    background: url(biatlon.jpeg) no-repeat center top / cover;
+    background: url(Хатынь.jpeg) no-repeat center top / cover;
+    color: rgb(255, 255, 255);
 }
 
 .two {
-     
-    background: url(sun.jpeg) no-repeat center top / cover;
+    color: rgb(255, 83, 83);
+    background: url(orden.jpeg) no-repeat center top / cover;
 }
 
 .three {
-    background: url(tehnika.jpeg) no-repeat center top / cover;
+    background: url(damage.jpeg) no-repeat center top / cover;
 }
 
 .four {
-    background: url(flags.jpeg) no-repeat center top / cover;
+    background: url(veteran.jpeg) no-repeat center top / cover;
 }
 
 .two_big {
-    background: url(les.jpeg) no-repeat center top / cover;
+    background: url(herotown.jpeg) no-repeat center top / cover;
 }
 
 .four_reverse {
@@ -136,10 +137,10 @@ body {
 }
 
 .three_reverse {
-    background: url(gaz.jpeg) no-repeat center top / cover;
+    background: url(hronika.jpeg) no-repeat center top / cover;
     text-shadow: 1px 1px 1px #000;
 }
 
 .two_reverse {
-    background: url(fire.jpeg) no-repeat center top / cover;
+    background: url(zapbel.jpeg) no-repeat center top / cover;
 }
